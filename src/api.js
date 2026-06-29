@@ -9,6 +9,11 @@ export const getApiUrl = (path = '') => {
 export const getImageUrl = (imagePath) => {
   if (!imagePath) return '';
   if (/^https?:\/\//i.test(imagePath)) return imagePath;
+  // If imagePath looks like a file ID (MongoDB ObjectId format), use the image endpoint
+  if (/^[a-f0-9]{24}$/.test(imagePath)) {
+    return getApiUrl(`/image/${imagePath}`);
+  }
+  // Otherwise, treat it as a path
   return getApiUrl(imagePath);
 };
 
