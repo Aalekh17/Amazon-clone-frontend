@@ -1,0 +1,65 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+#card5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 10px;
+  width:1000px;
+  margin-bottom: 30px;
+  
+}
+#image{
+  height:200px;
+  width:300px;
+  
+}
+#left{
+  height:300px;
+  width:300px;
+  border-radius: 10px;
+  background-color: rgb(230, 221, 221);
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+
+}
+#right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  gap:10px; 
+  
+}
+#tit{
+  font-size: larger;
+  font-weight: bold;
+}
+#star{
+  display: flex;
+  gap: 3px;
+}
+#rat{
+  font-size: large;
+  font-weight: bold;
+}
+#rupee{
+  font-size: xx-large;
+  font-weight: bold;
+}
+#cal{
+  font-size: large;
+  font-weight: bold;
+}
+#ma{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap:20px;
+  
+}

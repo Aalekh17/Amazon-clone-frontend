@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nav{
+  height:60px;
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 10, 3);
+  padding-right: 15px;
+  gap:10px;
+}
+#amazon{
+  display: flex;
+  align-items: center;
+}
+#link{
+  text-decoration: none;
+  color:beige;
+  font-weight: bolder;
+
+}
+#location{
+  color: beige;
+  font-weight: bolder;
+
+}
+#loc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+}
+#field{
+  display: flex;
+}
+#category{
+  width:40px;
+  height:37px
+  
+ 
+  
+  
+}
+#search{
+  height:37px;
+  width:700px;
+}
+#language{
+  background-color: rgb(5, 10, 3);
+  color: beige;
+  font-weight: bolder;
+  width:40px;
+  height:37px;
+}
+#hello{
+  color:beige;
+  font-weight: bolder;
+  font-size: small;
+}
+#login{
+  color: beige;
+  font-weight: bolder;
+  text-decoration: none;
+}
+#sm{
+  color: beige;
+  font-weight: bolder;
+ 
+  font-size: small;
+}
+#la{
+  color: beige;
+  font-weight: bolder;
+
+}
+#lo{
+  text-decoration: none;
+}
+#cart{
+  color:beige;
+  font-weight: bolder;
+  text-decoration: none;
+}
+#cartdiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+#num{
+  color:beige;
+  font-weight: bolder;
+}
+#gap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+#india{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:5px;
+}
+#log{
+  background-color: black;
+  color: white;
+}

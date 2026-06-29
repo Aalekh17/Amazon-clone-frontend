@@ -1,0 +1,34 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#sell {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width:450px;
+  height:600px;
+  border-radius: 10px;
+}
+#seller{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  
+}
+#field{
+  font-size: larger;
+  font-weight: bolder;
+  color: black;
+}
+#desc{
+  height:100px;
+  width:350px;
+}
+#ext{
+  width:350px;
+
+}

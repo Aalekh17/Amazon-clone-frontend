@@ -1,0 +1,78 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+#card2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  padding:100px;
+  width:100vw;
+}
+#img{
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+
+}
+#rating{
+  color:black;
+  font-weight: bolder;
+  font-size:larger;
+
+}
+#rate{
+  display: flex;
+}
+#buy{
+  border: 1px solid black;
+  width:1000px;
+  height:300px;
+  border-radius: 5px;;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:20px;
+
+
+}
+#stock{
+  color:green;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+#details{
+  width:1800px;
+}
+#del{
+  color: black;
+  font-weight: bolder;
+  font-size: larger;
+
+}
+#quant{
+  display: flex;
+  gap:10px;
+}
+#but2{
+  width:250px;
+  background-color: orange;
+  border-radius: 165px;
+  border: none;
+  height: 30px;
+}
+#txt{
+  color: black;
+  font-weight: bolder;
+  font-size: larger;
+}
+#sellerinfo{
+  display: flex;
+  flex-direction: column;
+}
+#selltxt{
+  color: rgb(10, 57, 214);
+  font-weight: bolder;
+  font-size: smaller;
+  text-align: center;
+}

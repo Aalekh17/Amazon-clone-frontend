@@ -1,0 +1,41 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+#mainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:40px;
+  margin-top: 20px;
+}
+#ordercart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  border:1px solid #000000;
+  border-radius: 10px;
+  width:300px;
+  height:min-content;
+  padding:10px;
+
+}
+#right2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  padding-left: 10px;
+  
+}
+#par{
+  font-size: medium;
+  font-weight: bolder;
+}
+#content{
+  display: flex;
+  gap:20px;
+}

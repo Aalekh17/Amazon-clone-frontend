@@ -1,0 +1,68 @@
+#login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  
+}
+#card1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  height:500px;
+  padding: 20px;
+  
+  width:350px;
+}
+#text{
+  color:black;
+  
+  font-size: small;
+}
+#head{
+  color: black;
+  
+}
+#mobile{
+  color: black;
+  font-weight: bolder;
+}
+#but{
+  width:250px;
+  background-color: rgb(238, 196, 60);
+  border-radius: 165px;
+  border: none;
+  height: 30px;
+}
+
+#input{
+  width:250px;
+  height:30px;
+}
+#link{
+  color:rgb(73, 73, 198);
+  text-decoration: none;
+  font-size: small;
+}
+#foot{
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+  gap:20px;
+  padding-top: 50px;
+}
+#foothead{
+  display: flex;
+  gap:50px;
+}
+#another{
+  display: flex;
+}
+#terms{
+  display: flex;
+  gap:3px;
+}

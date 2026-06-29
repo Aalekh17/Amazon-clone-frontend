@@ -1,0 +1,38 @@
+{/* Unauthorized routes */}
+          {!isloggedin && (
+            <>
+            <Route path="/signup" element={<Signup/>}/>
+            <Route path="/login" element={<Login/>}/>
+            <Route path="/" element={<Navigate to="/home"/>}/>
+            
+            </>
+          )}
+          
+          
+
+          {/* Protectedroute */}
+          <Route element={<Protectedroute/>}>
+          <Route path="/signup" element={<Navigate to="/"/>}/>
+          <Route path="/login" element={<Navigate to="/"/>}/>
+
+          <Route path="/" element={<Navigate to="/home"/>}/>
+
+          {usertype=="buyer"?(
+            <>
+            
+          <Route path="/cart" element={<Protectedroute><Cart/></Protectedroute>}/>
+          <Route path="/orders" element={<Protectedroute><Orders/></Protectedroute>}/>
+          <Route path="/sell" element={<Productcard/>}/>
+            
+            </>
+          ):(
+          <>
+          {/* <Route path="/cart" element={<Navigate to="/home"/>}/>
+          <Route path="/orders" element={<Navigate to="/home"/>}/> */}
+          <Route path="/sell" element={<Seller/>}/>
+          
+          
+          </>)}
+          
+          
+          </Route>
